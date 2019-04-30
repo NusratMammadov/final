@@ -206,12 +206,13 @@ color:#888888;
     margin-top: 30px;
     transition: all 0.5s ease-in-out;*/
 	animation-delay: 0.02s;
-	opacity: 1;
+    opacity: 1;
+    transition: all 0.5s;
 }
 .icon_box:hover{
 	
-	margin-top:20px;
-	box-shadow: 0 3px 9px 1px #B9B9B9;
+	margin-top:-20px;    
+	box-shadow: 0px 4px 20px rgba(101, 101, 101, 0.1);
 }
 
 #pop-categories{
@@ -238,12 +239,16 @@ color:#888888;
   padding: 100px 0px;
 }
 
-#pop-categories .owl-carousel a {
+#pop-categories #services{
+    width: 100%;
+}
+
+#pop-categories .owl-carousel  {
   text-decoration: none;
   color: #fff;
 }
 
-#pop-categories .owl-carousel a .item {
+#pop-categories .owl-carousel .item {
   text-align: center;
   height: 120px;
   padding: 25px 20px;
@@ -251,36 +256,45 @@ color:#888888;
   border-radius: 10px;
 }
 
-#pop-categories .owl-carousel a .item i {
+#pop-categories .owl-carousel .item i {
   font-size: 30px;
   margin-bottom: 10px;
 }
 
-#pop-categories .owl-carousel a .item p {
+#pop-categories .owl-carousel .item p {
   font-size: 16px;
+  color: #fff;
 }
+#pop-categories .owl-carousel .item a {
+    color: #fff;
+  }
+  #pop-categories .owl-carousel .item a:hover {
+    text-decoration: none;
+  }
 
-#pop-categories .owl-carousel a .item.business {
+
+#pop-categories .owl-carousel .item.business {
   background-color: #B3D369;
+  color: #fff;
 }
 
-#pop-categories .owl-carousel a .item.development {
+#pop-categories .owl-carousel .item.development {
   background-color: #fd7e14;
 }
 
-#pop-categories .owl-carousel a .item.health {
+#pop-categories .owl-carousel .item.health {
   background-color: #00C3CB;
 }
 
-#pop-categories .owl-carousel a .item.language {
+#pop-categories .owl-carousel .item.language {
   background-color: #f5576c;
 }
 
-#pop-categories .owl-carousel a .item.academics {
+#pop-categories .owl-carousel .item.academics {
   background-color: #FFBC09;
 }
 
-#pop-categories .owl-carousel a .item.photography {
+#pop-categories .owl-carousel .item.photography {
   background-color: #e83e8c;
 }
 
@@ -305,4 +319,46 @@ color:#888888;
 
 #pop-categories .owl-carousel .owl-next {
   right: -26px;
+}
+
+.icon-owl{
+    padding: 10px 15px;
+    opacity: 1;
+    background-color:white;
+    color:black;
+    margin-bottom: 36px;
+     /* display: none;  */
+    
+}
+
+.servicesPrev
+{margin-left: -42px;
+    position: absolute;
+    left: 60px;
+    z-index: 1;
+    left: 56px;
+    top: 36px;
+    
+}
+.servicesNext
+{margin-right: -42px;
+    position: absolute;
+    left: 60px;
+    z-index: 1;
+    left: 1057px;
+    top: 36px;
+}
+
+.overlap_section {
+    margin-right: -50px;
+    position: relative;
+    z-index: 2;
+    border-radius: 0 200px 200px 0;
+    margin-left: 64px;
+}
+.box_shadow1 {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.padding_eight_all {
+    padding: 8%;
 }
