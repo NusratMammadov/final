@@ -596,17 +596,84 @@ ul {
 #events .far{
 
     padding: 10px;
+	    color: #888888;
 }
 #events .fas{
 
     padding: 10px;
+    color: #888888;
 }
 #events h5 {
     
         color: #292b2c;
     }
-    #events h5:hover {
+ #events h5:hover {
         color: #ffc600;
         -webkit-transition: 0.5s;
         transition: 0.5s;
     }
+	
+	#events a{
+		 color: #ffc600;
+	}
+	
+#events a:hover {
+    color: #ffc600;
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+	
+}
+
+
+ #events .courses-user-icon{
+	
+	 margin-left: -30px;
+ }
+ 
+ #online-courses{
+	 background-image: url(../img/online-courses.png);
+	    background-color: #07294D;
+		
+		padding-top: 80px;
+		color:white;
+ }
+ #option-tool{
+	    width: 186px;
+    height: 30px;
+ }
+ 
+
+ 
+ #online-courses .baku{
+	background-color: rgba(255,255,255,0.1);
+	border-radius: 10px;
+	padding: 30px;
+	opacity: 1;
+	
+ }
+#online-courses .forms-details{
+	 
+	 padding-top:15px;
+	 background-color: transparent;
+ }
+ 
+ #fname1, #fname2, #fname3,#option-tool,#message-tool{
+	 background-color: transparent;
+	 border-color:white;
+	    border: 1px solid #ced4da;
+		 width: 174px;
+    height: 45px;
+	color:white;
+	margin-right: 34px;
+	border-radius: 5px;
+	 
+ }
+  #message-tool{
+	   height: 200px;
+    width: 386px;
+}
+
+#online-courses[placeholder]{
+	color:white;
+}
