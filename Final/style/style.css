@@ -668,7 +668,8 @@ ul {
     height: 45px;
 	color:white;
 	margin-right: 34px;
-	border-radius: 5px;
+    border-radius: 5px;
+    padding-left: 20px;
 	 
  }
   #message-tool{
@@ -676,9 +677,9 @@ ul {
     width: 386px;
 }
 
-input["placeholder"]{
-	color:white;
-}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: white;
+  }
 
 
 #online-courses .course-button  
@@ -697,4 +698,29 @@ input["placeholder"]{
 	
 	border-radius: 25px;
     padding: 10px;
+}
+
+#teachers{
+    background-image: url(../img/teacher.jpg);
+    background-repeat: none;
+    background-color: #07294D;
+    /* padding-top: 80px; */
+    color: white;
+    background-size: auto;
+    background-repeat: no-repeat;
+    /* height: 965px; */
+    position: relative;
+}
+#teachers::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(7, 41, 77, 0.70);
+    /* height: 946px; */
+    /* margin-top: -70px; */
+}
+
+#teachers img{
+    width:100%;
 }
