@@ -584,7 +584,7 @@ ul {
 }
 
 #events {
-    padding-top: 80px;
+      padding: 80px 0px;
     background-color: #F7F7F7;
 }
 
@@ -650,6 +650,8 @@ ul {
 	border-radius: 10px;
 	padding: 30px;
 	opacity: 1;
+	       margin-top: 10px;
+    margin-bottom: 40px;
 	
  }
 #online-courses .forms-details{
@@ -674,6 +676,25 @@ ul {
     width: 386px;
 }
 
-#online-courses[placeholder]{
+input["placeholder"]{
 	color:white;
+}
+
+
+#online-courses .course-button  
+{margin-left: -15px;
+    padding-top: 12px;
+	padding-bottom:0px;
+}
+
+#our-gallery {
+      padding: 80px 0px;
+    background-color: #F7F7F7;
+}
+
+
+#our-gallery .gallery-image{
+	
+	border-radius: 25px;
+    padding: 10px;
 }
