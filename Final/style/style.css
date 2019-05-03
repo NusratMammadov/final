@@ -575,7 +575,7 @@ ul {
 
 .item {
     text-align: center;
-    padding-top: 192px;
+    padding-top: 125px;
     color: white;
 }
 
@@ -723,4 +723,90 @@ ul {
 
 #teachers img{
     width:100%;
+}
+
+#teachers .courses{
+	background-color:white;
+}
+
+#teachers h5{
+	color:black;
+}
+#teachers h5:hover{
+	color:#ffc600;
+}
+
+
+#teachers .courses p{
+	color:#888888;
+}
+
+#teachers .courses-image:hover img {
+    -ms-transform: none;
+    /* IE 9 */
+    -webkit-transform: none;
+    /* Safari 3-8 */
+    transform: none;
+}
+
+
+#teachers-image a{
+	color:white;
+}
+
+#teachers-image a:hover{
+	color:#ffc600;
+	    text-decoration: none;
+}
+#teachers-image .float-left{
+	position:relative;
+    bottom: 222px;
+    left: 40px;
+	 visibility: hidden;
+	 
+    opacity: 0;
+
+	
+}
+
+#teachers-image:hover .float-left{
+	   
+	    visibility:visible;
+		opacity: 1;
+		transition: all 0.5s ease-in-out;
+		animation-delay: 0.02s;
+		
+}
+
+#teachers-image:hover .courses-image:before{
+ content: "";
+    position: absolute;
+    height: 62%;
+    width: 92%;
+	
+
+    background-color: rgba(7, 41, 77, 0.70);
+  overflow:hidden;
+  border-radius:10px;
+  opacity:0.8;
+}
+
+.quba{
+	padding-left:0px;
+
+}
+
+/*#teachers-image:before{    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(7, 41, 77, 0.70);}
+*/
+
+#students{
+	background-color:white;
+}
+
+#our-blog{
+background-color:#F7F7F7;
 }
