@@ -867,7 +867,78 @@ text-decoration: none;
 -webkit-transition: 0.5s;
 transition: 0.5s;
 }
+#our-client{
 
+   margin-top:80px;
+    
+}
 #our-clients  h4{
     color:black;
 }
+
+
+#our-clients  .item {
+    /* margin: 0 20px; */
+    width: 154px;
+    margin-top: -70px;
+    margin-bottom: 70px;
+    opacity: 0.7;
+    
+
+  }
+
+#training{
+    background-color: #FFBC09;
+    height: 156px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+#training .btn{
+    border-color: white;
+    padding: 10px 31px;
+}
+
+#footer{
+    background-color: #343a40;
+    color: white;
+    padding: 80px 0px;
+}
+#footer ul  {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+   
+  }
+  #footer a  {
+    color: white;
+    font-size: 14px;
+   
+  }
+
+  
+
+#footer .ctc-info img {
+
+    margin-bottom: 15px;
+  }
+  
+  #footer .ctc-info li {
+    margin-bottom: 10px;
+    
+  }  
+
+  #footer .fas{
+
+    padding: 5px;
+  }
+  #footer p{
+
+    font-size: 14px;
+  }
+
+  #footer .useful-links li{
+    padding: 0 0 10px;
+
+  }
