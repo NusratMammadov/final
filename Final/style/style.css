@@ -481,6 +481,7 @@ ul {
     overflow: hidden;
     margin: -2px;
     margin-top: 33px;
+    background-color: white;
 }
 
 .courses-image {
@@ -498,6 +499,9 @@ ul {
     -webkit-transform: scale(1.5);
     /* Safari 3-8 */
     transform: scale(1.5);
+    transition-duration: 1.4s;
+
+    
 }
 
 .courses-text {
@@ -543,6 +547,7 @@ ul {
 
 .courses-user-image {
     border-top: 1px solid;
+    border-color: #dbdbdb;
 }
 
 #counter {
@@ -809,4 +814,60 @@ ul {
 
 #our-blog{
 background-color:#F7F7F7;
+}
+
+#our-blog .far{
+
+    padding: 10px;
+	    color: #ffc600;
+}
+#our-blog .fas{
+
+    padding: 10px;
+    color: #ffc600;
+}
+
+#our-blog .courses-image:hover img{
+
+   
+        -ms-transform: none;
+        /* IE 9 */
+        -webkit-transform: none;
+        /* Safari 3-8 */
+        transform: none;
+    
+    
+}
+
+#our-blog p {
+    color: #888888;
+    margin: 7px 0px;
+}
+#our-blog h5 {
+    
+    color: #292b2c;
+}
+#our-blog h5:hover {
+    color: #ffc600;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#our-blog a{
+     color: #888888;
+}
+
+#our-blog .text-capitalize{
+    color:black;
+}
+
+#our-blog a:hover {
+color: #ffc600;
+text-decoration: none;
+-webkit-transition: 0.5s;
+transition: 0.5s;
+}
+
+#our-clients  h4{
+    color:black;
 }
