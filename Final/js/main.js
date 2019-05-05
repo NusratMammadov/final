@@ -42,11 +42,30 @@ $(document).ready(function () {
                 items: 3
             },
             1000: {
-                items: 5
+                items: 6
+            }
+        }
+    });
+    var owl = $('#students-say');
+    owl.owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        dots:false,
+        responsive: {
+            0: {
+                items: 2
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 2
             }
         }
     });
 
+    
     
 }); 
 AOS.init({
