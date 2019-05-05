@@ -938,7 +938,59 @@ transition: 0.5s;
     font-size: 14px;
   }
 
+  #footer .item-date p {
+
+    margin-bottom: 0px;
+    color: rgba(255,255,255,0.6);
+  }
+
+  #footer h5{
+
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
   #footer .useful-links li{
     padding: 0 0 10px;
 
   }
+
+  #footer .recent-item{
+    position: relative;
+    margin-bottom: 15px;
+  
+  }
+#footer .item-date{
+  width: 190px;
+  position: absolute;
+  top: 0;
+  left: 60px;
+  padding: 0 10px;
+}
+
+.news-letter-form{
+    position: relative;
+}
+.news-letter-form button{
+    position: absolute;
+    right: 4px;
+    top: 4px;
+}
+
+.follow-us li{
+
+    display: inline-block;
+    padding: 2px 3px;
+}
+
+.follow-us li a{
+    background-color: rgba(255,255,255,0.1);
+    font-size: 18px;
+    height: 35px;
+    width: 35px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 15%;
+}
