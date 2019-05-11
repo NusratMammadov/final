@@ -1479,3 +1479,40 @@ color: black;
     transform: scale(1.0);
     transition-duration: 1.4s;
 }
+
+
+#contact-adress .baku {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    opacity: 1;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#contact-adress .fname-add{
+    width: 100%;
+    color: black;
+    margin-bottom: 16px;
+    }
+    #contact-adress .forms-details {
+        padding-top: 15px;
+        background-color: transparent;
+    }
+    
+    
+    #contact-adress ::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        color: #666666;
+    }
+    
+    #contact-adress .btn{
+        padding: 10px 32px;
+        margin-left: -15px;
+    }
+    
+    #contact-adress .btn:hover{
+        background-color: #DF9C00;
+        border-color: #DF9C00;
+        color: white;
+    }
