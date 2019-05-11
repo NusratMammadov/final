@@ -1,12 +1,439 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700|Rubik:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" type="text/css" href="style/style.css">
     <title>Document</title>
 </head>
+
 <body>
+    <section id="header">
+        <div class="container">
+            <div class="row padding-header">
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-start">
+                        <ul class="text-align-center row">
+                            <li class="padding-right">
+                                <a href="#"><i class="fas fa-mobile padding-right"></i>123-456-7890</a>
+                            </li>
+                            <li class="padding-right">
+                                <a href="#"><i class="fas fa-envelope-square padding-right"></i>info@yourmail.com</a>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-end">
+                        <ul class="row float-left">
+                            <li class="padding-right"><a href="#"><i class="padding-right fab fa-facebook-f"></i></a>
+                            </li>
+                            <li class="padding-right"><a href="#"><i class="fab fa-twitter"></i></i></a></li>
+                            <li class="padding-right"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                            <li class="padding-right"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            <li class="padding-right"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                        <ul class="row float-left">
+                            <li><a href="#" data-toggle="modal" data-target="#Login">Login</a></li>
+                            <li><a href="#" class="btn btn-default btn-sm ">Apply Now</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- header END-->
+    <!-- navigation START-->
+    <section id="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="index.html" data-toggle="modal" data-target="#logo"><img src="img/logo2.png"
+                            alt="Italian Trulli"></a>
+
+                </div>
+                <div class="col-md-9">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Home
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Home version 1</a>
+                                        <a class="dropdown-item" href="#">Home version 2</a>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Pages
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item"
+                                            href="file:///C:/Users/DELL/Desktop/Final/about.html">About Us</a>
+                                        <a class="dropdown-item" href="#">Gallery</a>
+                                        <a class="dropdown-item" href="#">Faq</a>
+                                        <a class="dropdown-item" href="#">404 Page</a>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Course
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item"
+                                            href="file:///C:/Users/DELL/Desktop/Final/courses.html">Courses</a>
+                                        <a class="dropdown-item"
+                                            href="file:///C:/Users/DELL/Desktop/Final/courses%20details.html">Course
+                                            Detail</a>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Event
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item"
+                                            href="file:///C:/Users/DELL/Desktop/Final/events.html">Event</a>
+                                        <a class="dropdown-item"
+                                            href="file:///C:/Users/DELL/Desktop/Final/events%20details.html">Event
+                                            Detail</a>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Teacher
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Teacher</a>
+                                        <a class="dropdown-item" href="#">Teacher Detail</a>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Blog
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Blog</a>
+                                        <a class="dropdown-item" href="#">Blog Detail</a>
+
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                        href="file:///C:/Users/DELL/Desktop/Final/contact.html">Contact</a>
+                                </li>
+                            </ul>
+                            <!-- //<form class="form-inline my-2 my-lg-0">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                                  </form>// -->
+                            <!-- <div class="search-box">
+                                        <form class="form-inline" id="search-input">
+                                            <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                                aria-label="Search">
+                                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i
+                                                    class="fas fa-search"></i></button>
+                                        </form>
+                                    </div> -->
+                        </div>
+                    </nav>
+
+                    <div>
+                    </div>
+                </div>
+
+    </section>
+    <!-- navigation END-->
+
+    <section id="about-us-title">
+        <div class="title-text">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6">
+
+                        <h1>About Us</h1>
+
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="page text-right">
+                            <p><a href="#">Home</a> / About Us</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="event-details">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="courses">
+                        <div class="courses-image">
+                            <a><img class="courses-image" src="img/course_img_big.jpg" alt="Card image cap"></a>
+                        </div>
+                        <div class="courses-text">
+                            <a href="#">
+                                <h5>Nullam id varius nunc id varius nunc</h5>
+                            </a>
+                            <div class="courses-user-icon">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <ul class="row justify-content-start">
+
+                                            <li><i class="far fa-user"></i><a href="#" class="text_default">John
+                                                    Wood</a></li>
+                                            <li><i class="fas fa-map-marker-alt"></i><a href="#"
+                                                    class="text_default">New
+                                                    York City</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <ul class="row justify-content-end">
+                                            <li class="padding-right"><a href="#"><i
+                                                        class="padding-right fab fa-facebook-f"></i></a>
+                                            </li>
+                                            <li class="padding-right"><a href="#"><i class="fab fa-twitter"></i></i></a>
+                                            </li>
+                                            <li class="padding-right"><a href="#"><i
+                                                        class="fab fa-google-plus-g"></i></a>
+                                            </li>
+                                            <li class="padding-right"><a href="#"><i class="fab fa-youtube"></i></a>
+                                            </li>
+                                            <li class="padding-right"><a href="#"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Lorem Ipsu. is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s when an unknown printer
+                                took a galley of type and scrambled it to make a type specimen book. It has survived not
+                                only five centuries, but also the leap into electronic typesetting. It was popularised
+                                in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
+                                more recently with desktop publishing software like Aldus PageMaker including versions
+                                of Lorem Ipsum.</p>
+                            <p>Learning to live, study and work in a thriving business capital is exciting, Duis aute
+                                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                pariatur study and work in a thriving business capital is exciting, Duis aute irure
+                                dolor in reprehenderit in voluptate velit esse.Ut enim ad minim veniam, Quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            </p>
+
+                        </div>
+                        <div class="date text-center">
+                            <div class="day">
+                                <h5>16</h5>
+                                <h6>May</h6>
+                            </div>
+                            <div class="time">
+                                <p>10:00 AM</p>
+                                <p>3:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="location">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d386542.8149101477!2d-73.95229!3d40.808944!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f613438663b5%3A0xce20073c8862af08!2sW+123rd+St%2C+New+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1556917159441!5m2!1sen!2sin"
+                                width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="event-comment">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="baku ">
+                        <h5>Write a comment</h5>
+
+                        <div class="forms-details">
+                            <div class="row">
+                            <div class="col-lg-6">
+                            
+                                <input type="text" id="fname1" name="firstname" class="fname-add" placeholder="Your Name">
+                           
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="text" id="fname2" name="firstname" class="fname-add" placeholder="Your Email"><br>
+                                    
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="forms-details">
+                            <div class="row">
+                            <div class="col-lg-12">
+                            <textarea id="message-tool" name="subject" class="fname-add" placeholder="Your Comment"
+                                style="height:94px"></textarea>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="course-button">
+                                <div class="row">
+                                <div class="col-lg-12">
+                                        <button type="button" class="btn btn-warning color-white text-center">Submit</button>
+                                </div>
+                            </div>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      <!-- trainings START-->
+      <section id="training">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h2>Get The Coaching Training Today!</h2>
+                        <p>If you are going to use a passage of embarrassing hidden in the middle of text</p>
     
+                    </div>
+                    <div class="col-lg-4 d-flex justify-content-end align-items-center">
+                        <button type="button" class="btn btn-transparent animated fadeInDown">Get Started</button>
+                    </div>
+    
+                </div>
+            </div>
+        </section>
+        <!-- trainings  END-->
+    
+        <!-- footer START-->
+        <footer>
+            <section id="footer">
+                <div class="top-footer">
+                    <div class="container">
+                        <div class="row">
+    
+    
+                            <div class="col-lg-3">
+                                <div class="ctc-info">
+                                    <img src="img/logo-footer.png">
+                                    <p>Phasellus blandit massa enim. elit id varius nunc. Lorem ipsum dolor sit amet,
+                                        consectetur industry.</p>
+                                    <ul>
+                                        <li><i class="fas fa-map-marker-alt"></i> Califonia Street san Francisco, CA</li>
+                                        <li><i class="fas fa-envelope"></i><a href="#"> info@sitename.com</a></li>
+                                        <li><i class="fas fa-mobile-alt"></i> + 457 789 789 65</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <div class="useful-links">
+                                    <h5>Useful Links</h5>
+                                    <ul>
+                                        <li><a href="#">Join Us</a></li>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Features</a></li>
+                                        <li><a href="#">Feedback</a></li>
+                                        <li><a href="#">Support center</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <h5>Recent Posts</h5>
+                                <ul>
+                                    <li>
+                                        <div class="recent-item">
+                                            <img src="img/recent-post1.jpg">
+                                            <div class="item-date">
+                                                <p><a href="#">Lorem ipsum dolor sit amet, consectetur</a></p>
+                                                <p>April 14, 2018</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="recent-item">
+                                            <img src="img/recent-post2.jpg">
+                                            <div class="item-date">
+                                                <p><a href="#">Lorem ipsum dolor sit amet, consectetur</a></p>
+                                                <p>April 14, 2018</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="recent-item">
+                                            <img src="img/recent-post3.jpg">
+                                            <div class="item-date">
+                                                <p><a href="#">Lorem ipsum dolor sit amet, consectetur</a></p>
+                                                <p>April 14, 2018</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-4">
+                                <h5>Subscribe Newsletter</h5>
+                                <p>Contrary to popular belief of lorem Ipsm Latin amet ltin from consectetur industry.</p>
+                                <div class="news-letter-form">
+                                    <form>
+                                        <input type="text" class="form-control" required="" placeholder="Email Address">
+                                        <button type="submit" title="Subscribe" class="btn btn-default btn-sm" name="submit"
+                                            value="Submit">Subscribe</button>
+                                    </form>
+                                </div>
+                                <div class="follow-us">
+                                    <h5>Follow Us</h5>
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-camera-retro"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-footer">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                    <p>© 2018 All Rights Reserved by Eduglobal.</p>
+                            </div>
+                            <div class="col-lg-6">
+                                <ul class="list_none footer_link text-center text-md-right">
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Terms Conditions</a></li>
+                                </ul>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+        <!-- footer  END-->
+
 </body>
+
 </html>
