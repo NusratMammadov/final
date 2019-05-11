@@ -1204,6 +1204,9 @@ ul {
     padding: 40px 0px 40px 0px;
   }
 
+  #event-details{
+      margin-top: 33px;
+  }
   #event-details .date{
 
     position: absolute;
@@ -1280,6 +1283,7 @@ ul {
   #event-details .courses{
 
     border-radius: 0px;
+    margin-top: 0px;
   }
   #event-details p {
     color: #888888;
@@ -1316,6 +1320,51 @@ ul {
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
+#event-details .join-now {
+    height: 150px;
+    width: 100%;
+    background-color: #FFBC09;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  #event-details .join-now ul {
+    margin: 0;
+  }
+  
+  #event-details .join-now ul li {
+    display: inline-block;
+    font-size: 12px;
+    /* margin: 5px 5px 20px; */
+  }
+  
+  #event-details .join-now ul li p {
+    margin: 0;
+    color: white;
+  }
+  
+  #event-details .join-now ul li p:first-child {
+    font-size: 25px;
+  }
+  
+  #event-details .join-now ul li span {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  #event-details .join-now .btn {
+    padding: 5px 15px;
+    border-color: white;
+    margin-top: 20px;
+    border:1px solid;
+  }
+  #event-details .join-now .btn:hover {
+
+    background-color: white;
+    color: #ffc600;
+
+  }
 
 #event-comment{
     padding-top: 30px;
@@ -1362,3 +1411,27 @@ color: black;
     color: white;
 }
 
+#event-details .recent-item {
+    position: relative;
+    margin-bottom: 15px;
+    margin-left: -50px; 
+}
+
+#event-details .item-date {
+    width: 190px;
+    position: absolute;
+    top: 0;
+    left: 60px;
+    padding: 0 10px;
+    margin-top: -9px;
+}
+
+#event-details .item-date p{
+    margin: 4px 0px;
+    color: green;
+}
+#event-details .latest-course{
+    margin-top: 30px;
+ 
+  
+}
