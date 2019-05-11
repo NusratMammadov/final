@@ -4,9 +4,241 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700|Rubik:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" type="text/css" href="style/style.css">
     <title>Document</title>
 </head>
 <body>
-    
+      <!-- header START-->
+      <section id="header">
+        <div class="container">
+            <div class="row padding-header">
+                <div class="col-md-6">
+                    <ul class="text-align-center row">
+                        <li class="padding-right">
+                            <a href="#"><i class="fas fa-mobile">123-456-7890</a></i>
+                        </li>
+                        <li class="padding-right">
+                            <a href="#"><i class="fas fa-envelope-square"></i>info@yourmail.com</a></li>
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <div class="align-items-center">
+                        <ul class="row float-left">
+                            <li class="padding-right"><a href="#"><i class="padding-right fab fa-facebook-f"></i></a>
+                            </li>
+                            <li class="padding-right"><a href="#"><i class="fab fa-twitter"></i></i></a></li>
+                            <li class="padding-right"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                            <li class="padding-right"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            <li class="padding-right"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                        <ul class="row float-left">
+                            <li><a href="#" data-toggle="modal" data-target="#Login">Login</a></li>
+                            <li><a href="#" class="btn btn-default btn-sm ">Apply Now</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- header END-->
+    <!-- navigation START-->
+    <section id="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="index.html" data-toggle="modal" data-target="#logo"><img src="img/logo2.png"
+                            alt="Italian Trulli"></a>
+
+                </div>
+                <div class="col-md-9">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Home
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Home version 1</a>
+                                        <a class="dropdown-item" href="#">Home version 2</a>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Pages
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">About Us</a>
+                                        <a class="dropdown-item" href="#">Gallery</a>
+                                        <a class="dropdown-item" href="#">Faq</a>
+                                        <a class="dropdown-item" href="#">404 Page</a>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Course
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Courses</a>
+                                        <a class="dropdown-item" href="#">Course Detail</a>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Event
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Event</a>
+                                        <a class="dropdown-item" href="#">Event Detail</a>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Teacher
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Teacher</a>
+                                        <a class="dropdown-item" href="#">Teacher Detail</a>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Blog
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Blog</a>
+                                        <a class="dropdown-item" href="#">Blog Detail</a>
+
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#">Contact</a>
+                                </li>
+                            </ul>
+                            <!-- //<form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                          </form>// -->
+                        </div>
+                    </nav>
+
+                    <div>
+                    </div>
+                </div>
+
+    </section>
+    <!-- navigarion END-->
+<section id="about-us-title">
+        <div class="title-text">
+    <div class="container">
+        <div class="row">
+          
+            <div class="col-lg-6">
+              
+                    <h1>About Us</h1>
+                
+            </div>
+            <div class="col-lg-6">
+                <div class="page text-right">
+                    <p><a href="#">Home</a> / About Us</p>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+        </div>
+</section>
+<section id="feature" data-aos="fade-up">
+    <div class="container">
+        <div class="col-md">
+            <div class="row justify-content-center">
+                <div class="text-center">
+                    <h2>Get In Touch</h2>
+                    <p>If you are going to use a passage of Lorem Ipsum,you need to be sure there <br>isn't anything
+                        embarrassing hidden in the middle of text</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        </section>
+<section id="contact-adress">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 baku">
+                <div class="row">
+            <div class="col-lg-6">
+               
+                  
+
+                    <div class="forms-details">
+                        
+                        
+                        
+                            <input type="text" id="fname1" name="firstname" class="fname-add" placeholder="Your Name">
+                       
+                            
+                          
+                                <input type="text" id="fname2" name="firstname" class="fname-add" placeholder="Your Email">
+                                <input type="text" id="fname1" name="firstname" class="fname-add" placeholder="Enter Phone No.">
+                                <input type="text" id="fname1" name="firstname" class="fname-add" placeholder="Enter Subject">
+                                
+                                
+                        
+                    </div>
+                    <div class="forms-details">
+                        <div class="row">
+                        <div class="col-lg-12">
+                        <textarea id="message-tool" name="subject" class="fname-add" placeholder="Message"
+                            style="height:94px"></textarea>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="course-button">
+                            <div class="row">
+                            <div class="col-lg-12">
+                                    <button type="button" class="btn btn-warning color-white text-center">Submit</button>
+                            </div>
+                        </div>
+                        </div>
+                    
+                
+            </div>
+            <div class="col-lg-6">
+                <div class="location">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d386542.8149101477!2d-73.95229!3d40.808944!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f613438663b5%3A0xce20073c8862af08!2sW+123rd+St%2C+New+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1556917159441!5m2!1sen!2sin"
+                        width="100%" height="607px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+
+<script src="js/main.js"></script>
 </body>
 </html>
