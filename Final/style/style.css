@@ -12,11 +12,13 @@ body {
     text-decoration: none;
 }
 
-#header a:hover {
+#header ul li a:hover {
     color: #FFBC09;
 
     
 }
+
+
 .padding-right {
     padding-right: 15px;
 }
@@ -39,7 +41,7 @@ ul {
     margin-left: 15px;
 }
 
-#header .container .row .col-md-6 .align-items-center ul li .btn:hover {
+#header .btn:hover {
     color: white;
     background-color: #DF9C00;
 }
@@ -50,11 +52,22 @@ ul {
     text-decoration: none;
 }
 
-.navig {
-    display: flex;
-    width: auto;
-    height: auto;
+#navigation ul li a:hover{
+    color: #FFBC09;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+
 }
+#navigation li:hover  .show{
+    display: block;
+    }
+    #navigation ul li .dropdown-menu {
+      
+        border-radius: 0;
+      }
+      #navigation .dropdown-item:hover {
+        background-color: transparent;
+      }
 
 .navbar-nav {
     justify-content: flex-start;
@@ -129,7 +142,7 @@ ul {
 }
 
 #feature {
-    padding-top: 80px;
+    padding: 80px 0px;
     background-color: #F7F7F7;
 }
 
@@ -143,6 +156,7 @@ ul {
 
 #feature p {
     color: #888888;
+    margin-bottom: 40px;
 }
 
 .border {
@@ -195,16 +209,19 @@ ul {
     animation-delay: 0.02s;
     opacity: 1;
     transition: all 0.5s;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(101, 101, 101, 0.1);
+    
 }
 
 .icon_box:hover {
     margin-top: -20px;
-    box-shadow: 0px 4px 20px rgba(101, 101, 101, 0.1);
+   
 }
 
 #pop-categories {
     padding-top: 80px;
-    background-color: #F7F7F7;
+  
 }
 
 #pop-categories h2 {
@@ -548,6 +565,9 @@ ul {
 
 #our-courses .btn {
     padding: 15px 30px;
+    margin-top: 25px;
+    border: none;
+
 }
 
 #our-courses .btn:hover {
@@ -662,6 +682,11 @@ ul {
     opacity: 1;
     margin-top: 10px;
     margin-bottom: 40px;
+}
+
+#online-courses .text_default{
+
+    color:#ffc600;
 }
 
 #online-courses .forms-details {
@@ -1024,9 +1049,6 @@ ul {
     top: 4px;
 }
 
-.follow-us ul {
-    text-align: center;
-}
 
 .follow-us li {
     display: inline-block;
@@ -1181,3 +1203,162 @@ ul {
 
     padding: 40px 0px 40px 0px;
   }
+
+  #event-details .date{
+
+    position: absolute;
+    top: 42px;
+    left: 26px;
+    max-width: 75px;
+    /* background-color: #fff; */
+    text-align: center;
+    width: 100%;
+}
+#event-details .day{
+    background-color: white;
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: -8px;
+}
+
+#event-details .day h5 {
+
+    color: #292b2c;
+    /* padding: 5px; */
+    font-size: 24px;
+    margin: 0;
+    padding: 5px;
+}
+#event-details .day h6 {
+
+    color: #292b2c;
+    /* padding: 5px; */
+    font-size: 14px;
+    margin: 0;
+    padding: 5px;
+}
+#event-details .time p{
+
+    color: white;
+    padding: 3px;
+    margin-bottom: -3px;
+    font-size: 14px;
+}
+#event-details .time{
+    background-color: #FFBC09;
+    height: 100%;
+    border-radius: 0 0 5px 5px;
+
+}
+#event-details .page ul li {
+    display: inline-block;
+    color: #888888;
+    border: 2px solid #c5c4c4;
+    height: 40px;
+    width: 40px;
+    margin: 2px;
+    line-height: 40px;
+    border-radius: 5px;
+  }
+  #event-details .page ul li:hover{
+    background-color: #FFBC09;
+    color: white;
+    border-color: #FFBC09;
+  }
+  #event-details .page ul li:hover .fas{
+    background-color: #FFBC09;
+    color: white;
+    border-color: #FFBC09;
+  }
+
+
+
+  #event-details .page{
+
+    padding: 40px 0px 40px 0px;
+  }
+
+  #event-details .courses{
+
+    border-radius: 0px;
+  }
+  #event-details p {
+    color: #888888;
+    margin: 7px 0px;
+}
+
+#event-details .far {
+    padding: 10px;
+    color: #888888;
+}
+
+#event-details .fas {
+    padding: 10px;
+    color: #888888;
+}
+
+#event-details h5 {
+    color: #292b2c;
+}
+
+#events h5:hover {
+    color: #ffc600;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#event-details a {
+    color: #ffc600;
+}
+
+#event-details a:hover {
+    color: #ffc600;
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#event-comment{
+    padding-top: 30px;
+}
+
+#event-comment .baku {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    opacity: 1;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#event-comment .text_default{
+
+    color:#ffc600;
+}
+
+#event-comment .forms-details {
+    padding-top: 15px;
+    background-color: transparent;
+}
+
+#event-comment .fname-add{
+width: 100%;
+color: black;
+}
+
+#event-comment ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #666666;
+}
+
+#event-comment .btn{
+    padding: 10px 32px;
+    margin-left: -15px;
+}
+
+#event-comment .btn:hover{
+    background-color: #DF9C00;
+    border-color: #DF9C00;
+    color: white;
+}
+
