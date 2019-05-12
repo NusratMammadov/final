@@ -65,7 +65,33 @@ $(document).ready(function () {
         }
     });
 
-    
+ 
+  var navOption = $("#menu-bar .nav-item")
+  var navDropdown = $("#menu-bar .nav-item .dropdown-menu")
+
+  for (let i = 0; i < navOption.length; i++) {
+
+      $(navOption[i]).on("mouseover mouseout", function () {
+          $(navDropdown[i]).toggleClass("show")
+          $(navOption[i]).toggleClass("show")
+      })
+  }
+
+  var myImg = $("#our-blog .courses")
+  var myIcon = $("#our-blog .courses-user-image .courses-user-icon")
+  for (let i = 0; i < myImg.length; i++) {
+      $(myImg[i]).mouseover(function () {
+          $(myIcon[i]).stop();
+          $(myIcon[i]).animate({ top: "75px" });
+      })
+
+      $(myImg[i]).mouseout(function () {
+          $(myIcon[i]).stop();
+          $(myIcon[i]).animate({ top: "255px" });
+      })
+
+  }
+
     
 }); 
 AOS.init({
