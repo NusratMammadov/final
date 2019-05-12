@@ -58,7 +58,7 @@ ul {
     transition: 0.4s;
 
 }
-#navigation li:hover  .show{
+#navigation  .show{
     display: block;
     }
     #navigation ul li .dropdown-menu {
@@ -1365,6 +1365,28 @@ ul {
     color: #ffc600;
 
   }
+  #event-details .search-box input {
+    position: relative;
+    height: 45px;
+    width: 250px;
+    border-radius: 5px;
+    left: 0px;
+    top: -3px;
+  }
+  
+  #event-details .search-box button {
+      background-color: white;
+    position: absolute;
+    border: none;
+    top: 0px;
+    left: 250px;
+    font-size: 20px;
+    color: #888888;
+  }
+  
+  #event-details .search-box button:hover {
+    background-color: transparent;
+  }
 
 #event-comment{
     padding-top: 30px;
@@ -1516,3 +1538,4 @@ color: black;
         border-color: #DF9C00;
         color: white;
     }
+   
