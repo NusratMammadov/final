@@ -5,8 +5,476 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700|Rubik:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+
 </head>
 <body>
+ <!-- header START-->
+ <section id="header">
+        <div class="container">
+            <div class="row padding-header">
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-start">
+                    <ul class="text-align-center row">
+                        <li class="padding-right">
+                            <a href="#"><i class="fas fa-mobile padding-right"></i>123-456-7890</a>
+                        </li>
+                        <li class="padding-right">
+                            <a href="#"><i class="fas fa-envelope-square padding-right"></i>info@yourmail.com</a>
+
+                        </li>
+                    </ul>
+                </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-end">
+                        <ul class="row float-left">
+                            <li class="padding-right"><a href="#"><i class="padding-right fab fa-facebook-f"></i></a>
+                            </li>
+                            <li class="padding-right"><a href="#"><i class="fab fa-twitter"></i></i></a></li>
+                            <li class="padding-right"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                            <li class="padding-right"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            <li class="padding-right"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                        <ul class="row float-left">
+                            <li><a href="#" data-toggle="modal" data-target="#Login">Login</a></li>
+                            <li><a href="#" class="btn btn-default btn-sm ">Apply Now</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- header END-->
+    <!-- navigation START-->
+    <section id="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="index.html" data-toggle="modal" data-target="#logo"><img src="img/logo2.png"
+                            alt="Italian Trulli"></a>
+
+                </div>
+                <div class="col-md-9">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Home
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Home version 1</a>
+                                        <a class="dropdown-item" href="#">Home version 2</a>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Pages
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="file:///C:/Users/DELL/Desktop/Final/about.html">About Us</a>
+                                        <a class="dropdown-item" href="#">Gallery</a>
+                                        <a class="dropdown-item" href="#">Faq</a>
+                                        <a class="dropdown-item" href="#">404 Page</a>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Course
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="file:///C:/Users/DELL/Desktop/Final/courses.html">Courses</a>
+                                        <a class="dropdown-item" href="file:///C:/Users/DELL/Desktop/Final/courses%20details.html">Course Detail</a>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Event
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="file:///C:/Users/DELL/Desktop/Final/events.html">Event</a>
+                                        <a class="dropdown-item" href="file:///C:/Users/DELL/Desktop/Final/events%20details.html">Event Detail</a>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Teacher
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Teacher</a>
+                                        <a class="dropdown-item" href="#">Teacher Detail</a>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Blog
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Blog</a>
+                                        <a class="dropdown-item" href="#">Blog Detail</a>
+
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="file:///C:/Users/DELL/Desktop/Final/contact.html">Contact</a>
+                                </li>
+                            </ul>
+                            <!-- //<form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                          </form>// -->
+                          <!-- <div class="search-box">
+                                <form class="form-inline" id="search-input">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i
+                                            class="fas fa-search"></i></button>
+                                </form>
+                            </div> -->
+                        </div>
+                    </nav>
+
+                    <div>
+                    </div>
+                </div>
+
+    </section>
+    <!-- navigation END-->
+    <section id="about-us-title">
+            <div class="title-text">
+                <div class="container">
+                    <div class="row">
     
+                        <div class="col-lg-6">
+    
+                            <h1>About Us</h1>
+    
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="page text-right">
+                                <p><a href="#">Home</a> / About Us</p>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="event-details">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9">
+                        <div class="courses">
+                            <div class="courses-image">
+                                <a><img class="courses-image" src="img/course_img_big.jpg" alt="Card image cap"></a>
+                            </div>
+                            <div class="courses-text">
+                                <a href="#">
+                                    <h5>Nullam id varius nunc id varius nunc</h5>
+                                </a>
+                                <div class="courses-user-icon">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <ul class="row justify-content-start">
+    
+                                                <li><i class="far fa-user"></i><a href="#" class="text_default">John
+                                                        Wood</a></li>
+                                                <li><i class="fas fa-map-marker-alt"></i><a href="#"
+                                                        class="text_default">New
+                                                        York City</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <ul class="row justify-content-end">
+                                                <li class="padding-right"><a href="#"><i
+                                                            class="padding-right fab fa-facebook-f"></i></a>
+                                                </li>
+                                                <li class="padding-right"><a href="#"><i class="fab fa-twitter"></i></i></a>
+                                                </li>
+                                                <li class="padding-right"><a href="#"><i
+                                                            class="fab fa-google-plus-g"></i></a>
+                                                </li>
+                                                <li class="padding-right"><a href="#"><i class="fab fa-youtube"></i></a>
+                                                </li>
+                                                <li class="padding-right"><a href="#"><i class="fab fa-instagram"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>Lorem Ipsu. is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                               
+    
+                            </div>
+                            <div class="date text-center">
+                                <div class="day">
+                                    <h5>16</h5>
+                                    <h6>May</h6>
+                                </div>
+                                <div class="time">
+                                    <p>10:00 AM</p>
+                                    <p>3:00 PM</p>
+                                </div>
+                            </div>
+                            
+    
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                            <div class="search-box">
+                                    <form class="form-inline" id="search-input">
+                                        <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                            aria-label="Search" required>
+                                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i
+                                                class="fas fa-search"></i></button>
+                                    </form>
+                                </div>
+    
+                                <div class="latest-course">
+                               
+                                        <h5>Latest Course</h5>
+                                        <hr>
+                                        <ul>
+                                            <li>
+                                                <div class="recent-item">
+                                                    <img src="img/recent-post1.jpg">
+                                                    <div class="item-date">
+                                                        <p><a href="#">Nullam id varius nunc id varius nunc</a></p>
+                                                        <p>Free</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="recent-item">
+                                                    <img src="img/recent-post2.jpg">
+                                                    <div class="item-date">
+                                                        <p><a href="#">Nullam id varius nunc id varius nunc</a></p>
+                                                        <p>49 $</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="recent-item">
+                                                    <img src="img/recent-post3.jpg">
+                                                    <div class="item-date">
+                                                        <p><a href="#">Nullam id varius nunc id varius nunc</a></p>
+                                                        <p>Free</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="course-categories">
+                                        <h4>Course Categories</h4>
+                                        <hr>
+                                        <ul>
+                                            <li class="title row d-flex justify-content-between">
+                                               
+                                                    <i class="far fa-square"></i> <a href="#">Development</a>
+                                                    <p>(9)</p>
+                                             
+                                                
+                                            </li>
+                                            <li class="title row d-flex justify-content-between">
+                                                
+                                                    <i class="far fa-square"></i> <a href="#">Business</a>
+                                                
+                                                <p>(6)</p>
+                                            </li>
+                                            <li class="title row d-flex justify-content-between">
+                                                
+                                                    <i class="far fa-square"></i> <a href="#">Academics</a>
+                                                
+                                                <p>(4)</p>
+                                            </li>
+                                            <li class="title row d-flex justify-content-between">
+                                               
+                                                    <i class="far fa-square"></i> <a href="#">Health Fitness</a>
+                                             
+                                                <p>(7)</p>
+                                            </li>
+                                            <li class="title row d-flex justify-content-between">
+                                                
+                                                    <i class="far fa-square"></i> <a href="#">Photography</a>
+                                                
+                                                <p>(12)</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="recent-posts">
+                                            <h5>Recent Posts</h5>
+                                            <hr>
+                                            <ul>
+                                                <li>
+                                                    <div class="recent-item">
+                                                        <img src="img/recent-post1.jpg">
+                                                        <div class="item-date">
+                                                            <p><a href="#">Lorem ipsum dolor sit amet, consectetur</a></p>
+                                                            <p>April 14, 2018</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="recent-item">
+                                                        <img src="img/recent-post2.jpg">
+                                                        <div class="item-date">
+                                                            <p><a href="#">Lorem ipsum dolor sit amet, consectetur</a></p>
+                                                            <p>April 14, 2018</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="recent-item">
+                                                        <img src="img/recent-post3.jpg">
+                                                        <div class="item-date">
+                                                            <p><a href="#">Lorem ipsum dolor sit amet, consectetur</a></p>
+                                                            <p>April 14, 2018</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                    </div>
+                                    <div class="tags">
+                                        <h4>Tags</h4>
+                                        <hr>
+                                        <div class="row mb-2 ml-1">
+                                            <a href="#">General</a>
+                                            <a href="#">Design</a>
+                                            <a href="#">Jquery</a>
+                                        </div>
+                                        <div class="row mb-2 ml-1">
+                                            <a href="#">Branding</a>
+                                            <a href="#">Modern</a>
+                                            <a href="#">Blog</a>
+                                        </div>
+                                        <div class="row mb-2 ml-1">
+                                            <a href="#">Quotes</a>
+                                            <a href="#">Advertisement</a>
+                                        </div>
+                                    </div>
+    
+                    </div>
+                </div>
+            </div>
+        </section>
+  <!-- our-courses START-->
+  <section id="our-courses" data-aos="fade-up">
+        <div class="container">
+        
+            <div class="row" style="margin-top:30px;">
+                <div class="col-lg-4">
+                    <div class="courses">
+                        <div class="courses-image">
+                            <a><img class="courses-image" src="img/course1.jpg" alt="Card image cap"></a>
+                        </div>
+                        <div class="courses-text">
+                            <a href="#">
+                                <h5>Nullam id varius nunc id varius nunc</h5>
+                            </a>
+                            <p>If you are going to use a passage of Lorem Ipsum you need to be sure anything
+                                embarrassing hidden in the middle of text.</p>
+                            <div class="d-flex justify-content-between">
+                                <ul class="row courses-star-icon">
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star-half-alt"></i></li>
+
+                                </ul>
+                                <div class="courses-user-icon d-flex justify-content-between">
+                                    <a href="#"><i class="far fa-user"></i> 31</a>
+                                    <a href="#"><i class="far fa-heart"></i> 10</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="courses-user-image row">
+                            <div class="user-image">
+                                <img src="img/user1.jpg">
+                            </div>
+                            <div class="user-name">
+                                <a href="#">Alia Noor</a>
+                            </div>
+                            <div class="alert alert-success" style="margin-left: 35px;margin-top: 13px;" role="alert">
+                                FREE
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4">
+                    <div class="courses">
+                        <div class="courses-image">
+                            <a><img class="courses-image" src="img/course2.jpg" alt="Card image cap"></a>
+                        </div>
+                        <div class="courses-text">
+                            <a href="#">
+                                <h5>Nullam id varius nunc id varius nunc</h5>
+                            </a>
+                            <p>If you are going to use a passage of Lorem Ipsum you need to be sure anything
+                                embarrassing hidden in the middle of text.</p>
+                            <div class="d-flex justify-content-between">
+                                <ul class="row courses-star-icon">
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star-half-alt"></i></li>
+
+                                </ul>
+                                <div class="courses-user-icon d-flex justify-content-between">
+                                    <a href="#"><i class="far fa-user"></i> 31</a>
+                                    <a href="#"><i class="far fa-heart"></i> 10</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="courses-user-image row">
+                            <div class="user-image">
+                                <img src="img/user2.jpg">
+                            </div>
+                            <div class="user-name">
+                                <a href="#">Alia Noor</a>
+                            </div>
+                            <div class="alert alert-success" style="margin-left: 35px;margin-top: 13px;" role="alert">
+                                FREE
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                
+            </div>
+           
+        </div>
+    </section>
+    <!-- our-courses  END-->
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
 </html>
